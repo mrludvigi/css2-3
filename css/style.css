@@ -1,3 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+@import url('https://fonts.cdnfonts.com/css/prata-2');
+@import url('https://fonts.cdnfonts.com/css/fira-sans');
+@import url('https://fonts.cdnfonts.com/css/phetsarath');
+@import url('https://fonts.cdnfonts.com/css/noto-sans');
+
 
 * {
     margin: 0;
@@ -34,6 +40,7 @@
     font-size: 18px;
     font-weight: 400;
     color: #323232;
+    font-family: 'Inter', sans-serif;
 
 }
 .contact_us{
@@ -45,9 +52,11 @@
     font-weight: 500;
     border-radius: 8px;
     border: 1px solid #8E26C0;
-    background: #FFF;
+    background: #F7F4FF;
+    vertical-align: middle;
 }
 .contact_us a{
+    font-family: 'Inter', sans-serif;
     text-decoration: none;
 }
 .main{
@@ -69,6 +78,7 @@
     margin-left: 45px;
 }
 h1{
+    font-family: 'Inter', sans-serif;
     font-size: 40px;
     text-align: center;
     font-weight: 700;
@@ -76,12 +86,15 @@ h1{
     margin-bottom: 16px;
 }
 .main_p{
+    font-family: 'Prata', sans-serif;
     color: #535862;
     font-size: 20px;
     font-weight: 400;
 }
 .lists{
-    margin-left: 18px;
+    margin-top: 8px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 20px;
     color: #000;
     font-size: 24px;
     font-weight: 400;
@@ -104,6 +117,7 @@ h1{
     align-items: center;
 }
 .contact_header h2{
+    font-family: 'Inter', sans-serif;
     color: #000;
     text-align: center;
     font-size: 56px;
@@ -111,6 +125,7 @@ h1{
     margin-bottom: 18px;
 }
 .contact_p{
+    font-family: 'Prata', sans-serif;
     color: #535862;
     text-align: center;
     font-size: 20px;
@@ -118,6 +133,7 @@ h1{
 }
 .send_container{
     max-width: 1157px;
+    width: 100%;
     padding: 32px;
     border-radius: 16px;
     background: #F7F4FF;
@@ -127,6 +143,7 @@ h1{
     background: #FFF;
     padding: 20px;
     display: inline-block;
+    vertical-align: middle;
 }
 .items_img{
     vertical-align: middle;
@@ -145,11 +162,13 @@ h1{
     display: inline-block;
 }
 .p_one{
+    font-family: 'Phetsarath', sans-serif;
     color: #000;
     font-size: 20px;
     font-weight: 700;
 }
 .p_two{
+    font-family: 'Prata', sans-serif;
     color: #6D5F8B;
     font-size: 16px;
     font-weight: 400;
@@ -165,19 +184,10 @@ h1{
 }
 .right{
     display: inline-block;
-}
-footer{
-    margin-top: 163px;
-    max-width: 1920px;
-    max-height: 480px;
-    width: 100%;
-    height: 100%;
-    padding: 64px 0px 48px 0px;
-    align-items: center;
-    flex-shrink: 0;
-    background: #53389E;
+    vertical-align: middle;
 }
 label{
+    font-family: 'Noto Sans', sans-serif;
     display: block;
     color: #1B003D;
     font-size: 14px;
@@ -185,19 +195,13 @@ label{
     line-height: 18px;
     margin-bottom: 8px;
 }
-textarea{
-    margin-top: 24px;
-    display: block;
-    height: 146px;
-    border-radius: 16px;
-    border: 1px solid #8E26C0;
-    padding: 12px 16px;
-    align-items: center;
-}
 .right{
     margin-left: 24px;
+    max-width: 630px;
+    width: 100%;
 }
 .right h2{
+    font-family: 'Noto Sans', sans-serif;
     color: #1B003D;
     font-size: 32px;
     font-weight: 900;
@@ -207,6 +211,7 @@ textarea{
     margin-bottom: 16px;
 }
 .input{
+    font-family: 'Noto Sans', sans-serif;
     border-radius: 8px;
     border: 1px solid #8E26C0;  
     padding: 8px 16px;
@@ -220,4 +225,48 @@ textarea{
 }
 .margin_send{
     margin-top: 24px;
+}
+.textarea{
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 24px;
+    color: #6D5F8B;
+    width: 650px;
+    height: 146px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    resize: none;
+    padding: 12px 16px;
+    align-items: center;
+    border-radius: 16px;
+    border: 1px solid #8E26C0;
+    margin-bottom: 24px;
+}
+.send_button{
+    border-radius: 8px;
+    background: #8E26C0;
+    border: 1px solid #8E26C0;
+    width: 140px;
+    padding: 12px 24px;
+    align-items: center;
+    margin-left: 510px;
+}
+.send_button a{
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+footer{
+    margin-top: 163px;
+    max-width: 1920px;
+    max-height: 480px;
+    width: 100%;
+    height: 100%;
+    padding: 64px 0px 48px 0px;
+    align-items: center;
+    flex-shrink: 0;
+    background: #53389E;
 }
